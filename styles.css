@@ -1,0 +1,254 @@
+.apple {
+    background: svg-load("./icon/apple.svg");
+    height: 22px;
+    width: 18px;
+    background-repeat: no-repeat;
+    border: none;
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+ 
+  h1{
+    font-size: 48px;
+  }
+
+  h2 {
+    font-family: Chicago;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-family: Chicago;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-family: Chicago;
+    font-size: 16px;
+  }
+
+  p{
+    font-family: Chicago;
+    font-size: 12px;
+  }
+
+  .column {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    margin: 10px; /* Adjust margin as needed */
+    box-shadow: inset 2px 2px 0px 0px rgba(0,0,0,0.5); /* Black border effect */
+    position: relative;
+}
+
+/* Different colors for each swatch */
+.swatch1 { background-color: #FF4136; }
+.swatch2 { background-color: #FF851B; }
+.swatch3 { background-color: #FFDC00; }
+.swatch4 { background-color: #7FDBFF; }
+.swatch5 { background-color: #39CCCC; }
+.swatch6 { background-color: #3D9970; }
+
+/* Offset the colors slightly */
+.swatch-offset {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+/* Style for the labels */
+.label {
+    text-align: center;
+    margin-top: 5px; /* Adjust margin as needed */
+}
+
+.btn .btn-default {
+  min-height: 20px;
+  min-width: 59px;
+  padding: 0 20px;
+  text-align:center;
+  background: var(--primary);
+  border-style: solid;
+  border-width: 5.5px;
+  border-image: url("D:\designsystem\assets\button.svg") 30 stretch;
+  color: var(--secondary);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Chicago_12;
+  cursor: pointer;
+}
+
+/* Small Button */
+.btn-small {
+    min-height: 20px;
+    min-width: 40px;
+  }
+  
+  /* Medium Button (retain the existing styling) */
+  .btn-medium {
+    min-height: 40px; /* Adjust height as needed */
+    min-width: 200px; /* Adjust width as needed */
+    font-size: 24px;
+
+  }
+  
+  /* Large Button */
+  .btn-large {
+    min-height: 60px;
+    min-width: 400px;
+    font-size: 32px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px; /* Add space between cards */
+}
+
+/* Adjust space between the last card and the edge of the container */
+.card:last-child {
+    margin-right: 0;
+}
+
+/* Different sizes for cards */
+.small {
+    flex-basis: 30%; /* Adjust as needed */
+}
+
+.medium {
+    flex-basis: 40%; /* Adjust as needed */
+}
+
+.large {
+    flex-basis: 50%; /* Adjust as needed */
+}
+
+/* Additional styling for card contents */
+.card h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card .field-row {
+    margin-bottom: 10px;
+}
+
+/* Style for full-width button */
+.full-width-btn {
+    width: 100%;
+    margin-top: 20px; /* Add space between content and button */
+}
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.carousel {
+    display: flex;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    justify-content: center;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+.wayfinder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wayfinder-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: black;
+}
+
+.inner-border{
+  border-color: var(--secondary);
+  border-top: 3.5px solid;
+  border-bottom: 3.5px solid;
+  border-left: 5px solid;
+  border-right: 5px solid;
+}
+
+.outer-border{
+    border-color: var(--secondary);
+    border: 2px solid;
+    padding: 3px;
+}
+
+.title-bar {
+    font-family: Chicago;
+    
+    width: 60%;
+}
+
+.title-bar-color1{
+    background: #3D9970;
+}
+
+.title-bar-color2{
+    background:#0099f8;
+}
+
+.title-bar-color3{
+    background: #cb0101;
+}
+
+.title-bar-color4{
+    background: #eeb300;
+}
