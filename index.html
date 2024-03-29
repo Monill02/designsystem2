@@ -11,7 +11,8 @@
 <body>
     <ul role="menu-bar">
         <li role="menu-item" tabindex="0" aria-haspopup="true">
-          File
+         <h3>File</h3> 
+       
           <ul role="menu">
             <li role="menu-item"><a href="#menu">Action</a></li>
             <li role="menu-item"><a href="#menu">Another Action</a></li>
@@ -20,7 +21,8 @@
           </ul>
         </li>
         <li role="menu-item" tabindex="0" aria-haspopup="true">
-          Edit
+         <h3>Edit</h3>
+        
           <ul role="menu">
             <li role="menu-item"><a href="#menu">Action</a></li>
             <li role="menu-item"><a href="#menu">Another Action</a></li>
@@ -29,7 +31,7 @@
           </ul>
         </li>
         <li role="menu-item" tabindex="0" aria-haspopup="true">
-          View
+          <h3>View</h3>
           <ul role="menu">
             <li role="menu-item"><a href="#menu">Action</a></li>
             <li role="menu-item"><a href="#menu">Another Action</a></li>
@@ -37,7 +39,7 @@
           </ul>
         </li>
         <li role="menu-item" tabindex="0" aria-haspopup="true">
-          Special
+         <h3>Special</h3>
           <ul role="menu">
             <li role="menu-item"><a href="#menu">You</a></li>
             <li role="menu-item"><a href="#menu">Get the</a></li>
@@ -51,7 +53,7 @@
     <p>ARTI 609 Web and Mobile Development Midterm</p>
 
     <h2>
-        Typography
+        1. Typography
     </h2>
     <h1>This is Heading 1</h1>
     <h2>This is Heading 2</h2>
@@ -60,7 +62,7 @@
     <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst. Suspendisse potenti. Donec at consequat massa. Phasellus lobortis justo sit amet felis bibendum hendrerit. Duis euismod velit nec ligula fermentum, in vestibulum libero scelerisque. Suspendisse potenti.</p>
    
     <h2>
-        Colours
+        2. Colours
     </h2>
     <div class="column swatch1">
         <div class="swatch-offset"></div>
@@ -88,7 +90,7 @@
     </div>
 
     <h2>
-        Buttons
+        3. Buttons
     </h2>
 
     <button class="btn btn-default btn-small">Find</button>
@@ -97,7 +99,7 @@
 
 
 <h2>
-    Cards
+    4. Cards without image
 </h2>
 <div class="card-container">
     <!-- Small Card -->
@@ -160,22 +162,33 @@
     </div>
 </div>
 
-<h2>
-    Carousel
+<h2>5. Cards with image</h2>
+<div class="card-container">
+    <div class="full-width-card">
+        <h3>Card 1</h3>
+        <img src="assets/2_people_in_the_frame_1_is_bombarded_with_lots_.jpg" alt="Image 1">
+    </div>
+    <div class="full-width-card">
+        <h3>Card 2</h3>
+        <img src="assets/A_guy_walking_with_an_AI_pin_in_the_streets_of_N.jpg" alt="Image 2">
+    </div>
+</div>
+
+   <h2>6. Carousel</h2>
 </h2>
-<div class="outer-border"> 
+<div class="outer-border">
     <div class="inner-border">
-        <div class="carousel-container">
+        <div class="carousel-container" style="height: 25rem;"> <!-- Increase the height as needed -->
             <div class="carousel">
                 <div class="carousel-track">
                     <div class="carousel-item active">
-                        <img src="assets/slide1.jpg" alt="Image 1">
+                        <img src="assets/A_guy_walking_with_an_AI_pin_in_the_streets_of_N.jpg" alt="Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/slide2.jpg" alt="Image 2">
+                        <img src="assets/A_user_walking_around_with_zero_UI_around_him_S.jpg" alt="Image 2"> <!-- Update src attribute -->
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/slide1.jpg" alt="Image 3">
+                        <img src="assets/Annoyed_VR_user_trying_to_login_to_the_app_fai (1).jpg" alt="Image 3"> <!-- Correct src attribute -->
                     </div>
                     <!-- Add more carousel items as needed -->
                 </div>
@@ -185,6 +198,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 
 <div class="wayfinder">
@@ -202,7 +218,7 @@
 </body>
 
 <h2>
-    Alerts
+    7. Alerts
 </h2>
 
 <div class="title-bar title-bar-color1">

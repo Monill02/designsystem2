@@ -116,6 +116,33 @@
     margin-right: 10px; /* Add space between cards */
 }
 
+.card img {
+
+    height: fit-content; /* Maintain image aspect ratio */
+    max-width: calc(50% - 10px); /* Ensure cards don't overflow and leave space between them */
+
+}
+
+.full-width-card {
+    width: 100%; /* Set cards to full width */
+    margin-bottom: 20px; /* Add margin between cards */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 5px; /* Example border radius */
+    overflow: hidden; /* Prevent images from overflowing the cards */
+    margin: 8px;
+}
+
+.full-width-card h3 {
+    margin: 10px; /* Remove default margin for consistency */
+}
+
+.full-width-card img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto; /* Maintain image aspect ratio */
+    display: block; /* Remove extra space below images */
+}
+
+
 /* Adjust space between the last card and the edge of the container */
 .card:last-child {
     margin-right: 0;
@@ -160,7 +187,7 @@
 
 .carousel {
     display: flex;
-}
+ }
 
 .carousel-track {
     display: flex;
@@ -251,4 +278,8 @@
 
 .title-bar-color4{
     background: #eeb300;
+}
+
+body {
+    margin: 20px; /* Adjust the value as needed */
 }
