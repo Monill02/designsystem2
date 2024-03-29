@@ -43,12 +43,12 @@
 }
 
 /* Different colors for each swatch */
-.swatch1 { background-color: #FF4136; }
-.swatch2 { background-color: #FF851B; }
-.swatch3 { background-color: #FFDC00; }
-.swatch4 { background-color: #7FDBFF; }
-.swatch5 { background-color: #39CCCC; }
-.swatch6 { background-color: #3D9970; }
+.swatch1 { background-color: #FF0000; }
+.swatch2 { background-color: #4CAF50; }
+.swatch3 { background-color: #F5F5F5; }
+.swatch4 { background-color: #AED6F1; }
+.swatch5 { background-color: #FFD700; }
+.swatch6 { background-color: #708090; }
 
 /* Offset the colors slightly */
 .swatch-offset {
